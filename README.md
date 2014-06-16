@@ -85,7 +85,7 @@ You only need this if you include the `asgard::apache` recipe.
 Add something like the following to your recipe or role:
 
 ```ruby
-node['java']['jdk']['6']['x86_64']['url'] = 'http://example.com/jdk-6u41-linux-x64.tar.gz'
+node['java']['jdk']['6']['x86_64']['url'] = 'http://example.com/jdk-6u41-linux-x64.tar.gz'
 node['java']['jdk']['6']['x86_64']['checksum'] = 'd54749ac1ae3dad19643aa38d54aec1b4d8f6268e06edb744d6864d9eb8a8f31'
 node["asgard"]["war"]["url"] = "http://example.com/asgard-1.1.war"
 node["asgard"]["war"]["checksum"] = "207124a5127c7b9a4a7f522298935d5e595b558bbdcfba1a9c3c74c22032ac51"
